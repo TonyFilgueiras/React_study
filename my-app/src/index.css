@@ -1,0 +1,123 @@
+* {
+  padding: 0%;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Open Sans',sans-serif;
+}
+
+:root {
+  --cor1 : #E8E1EF;
+  --cor2 : #56EEF4;
+  --cor3 : #38A3A5;
+  --cor4 : #357ced;
+  --cor5 : #5438DC;
+  --cor6 : #22175C;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  background-color: var(--cor6);
+  font-size: x-large;
+}
+
+a {
+  padding: 0 5px;
+  color: white;
+  text-decoration: none;
+  transition: .2s
+}
+
+div a:hover {
+  text-decoration: solid;
+  transform: scale(2);
+  color: var(--cor2);
+}
+
+/* ------------------------------------ */
+
+.body{
+  min-height: 80vh;
+}
+
+strong {
+  background-color: var(--cor5);
+  color: white;
+  padding: 0px 10px;
+  font-weight: 900;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+
+}
+
+p {
+  margin: 20px;
+  text-align: center;
+}
+
+.button {
+  width: fit-content;
+  margin-top: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: var(--cor6);
+  padding: 5px;
+  transition: .2s;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: var(--cor5);
+}
+
+#piggy {
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+/* ----------------Form---------------- */
+
+
+form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+}
+label {
+  font-weight: bold;
+  margin: 0.5em;
+}
+
+input, select {
+  padding: 8px 4px;
+}
+
+/* ----------------------Footer--------- */
+
+footer {
+  background-color: var(--cor6);
+  text-align: center;
+  color: white;
+}
+
+.icons {
+  margin: 30px 20px;
+  font-size: 30px;
+}
+
+footer p {
+  padding: 20px 0;
+  margin: 0;
+}
